@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<htm lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valley of Dogs</title>
+</head>
+<link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Chewy', 'cursive';
+            margin: 0px;
+            padding: 0px;
+            background: url('bgdog1.jpg')   
+        }
+        .left{
+            /* border: 2px solid rgb(53, 3, 3); */
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 15px;
+           
+        }
+        .left img{
+            width: 100px;
+               
+        }
+        .left div{
+            text-align: center;
+            line-height: 19px;
+            font-size: 36px;
+            color: #f618a5;
+        }
+        .mid{
+            /* border: 2px solid rgb(99, 189, 14); */
+            display: block;
+            width: 33%;
+            margin: 37px auto;
+        }
+        .right{
+            /* border: 2px solid rgb(224, 243, 17); */
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            margin: 37px auto;
+            top:0px;
+            
+        }
+
+        .navbar{
+            display: inline;
+        }
+        .navbar li{
+            display: inline;
+            font-size: 17px;
+        }
+
+        .navbar li a{
+            color: rgb(0, 0, 0);
+            padding: 34px 23px;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover, .navbar li a.active{
+            color: grey; 
+            /* text-decoration: underline; */
+        }
+        .btn{
+            margin: 0px 9px;
+            background-color: white;
+            color: black;
+            padding: 0px 12px;
+            border: 3px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 13px;
+            font-family: 'Chewy', 'cursive';
+        }
+
+        .btn:hover{
+            background-color: grey;
+        }
+        .container{
+            border: 3px solid rgb(0, 0, 0);
+            margin: 106px 80px;
+            padding: 75px;
+            width: 45%;
+            border-radius: 28px;
+        }
+        .form-group input{
+            font-size: 15px;
+            text-align: center;
+            display: block;
+            width: 420px;
+            border: 2px solid black;
+            padding: 4px;
+            border-radius: 10px;
+            margin: 10px auto;
+            font-family: 'Chewy', 'cursive';
+        }
+
+        .container  h1{
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+        .container button{
+            display: block;
+            width: 63%;
+            padding: 5px;
+            margin: 15px auto;
+            background-color: blue;
+        }
+
+    </style>
+<body>
+  <header class="header">
+
+    <!-- left box for logo -->
+    <div class="left">
+        <img src="" alt="">
+        <div>Valley of Dogs</div>
+    </div>
+       
+
+    <!-- mid box for navbar -->
+    <div class="mid">
+            <ul class="navbar">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Adopt Dog</a></li>
+            </ul> 
+          </div>
+    </div>
+
+    <!-- right box for button -->
+    <div class="right">
+       <button class="btn">Call Us</button>
+       <button class="btn">Whatsapp Us</button>
+    </div>
+  </header>
+  <div class="container">
+    <h1>Contact for all types of Dog breed from all over India</h1>
+   <form action="noaction.php">
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Address">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Email Id">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Contact No.">
+        </div>
+        <button class="btn">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
